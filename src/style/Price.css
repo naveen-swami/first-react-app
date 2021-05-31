@@ -1,0 +1,12 @@
+.Price {
+    text-align: center;
+    background-color: #282c34;
+}
+
+.Price-h5 {
+    display: flex;
+    color: white;
+    font-size: 2em;
+    /* height: 100vh; */
+    justify-content: center;
+}

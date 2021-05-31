@@ -1,0 +1,12 @@
+.Product {
+    background: black;
+    text-align: center;
+    color: black;
+}
+
+.Product-h6 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color:blue;
+}
