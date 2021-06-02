@@ -1,0 +1,25 @@
+.header {
+    background-color: $accent1;
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        color: $grey1;
+        justify-content: flex-end;
+
+        .link {
+            cursor: pointer;
+            margin-right: 40px;
+
+            &.selected {
+                color: $secondary;
+                text-decoration: underline;
+            }&:hover {
+                color: $secondary;
+                text-decoration: underline;
+            }
+        }
+
+        
+    }
+}
