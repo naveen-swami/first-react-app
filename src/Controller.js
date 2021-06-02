@@ -10,7 +10,7 @@ const Controller = () => {
     return (
         <div >
             {/* Router has props attribute */}
-            <Router> 
+            <Router>
                 <Switch>
                     {/* exact checks that part is exact match or not  
                    It does not allow if path is not equal to path attribute*/}
@@ -26,14 +26,14 @@ const Controller = () => {
                     <Route path="/work/:workId" render={(props) => <Work {...props} />} />
                     <Route path="/resume" render={() => <Resume />} />
                     {/* inline rendering */}
-                    <Route path="*" render={() => 
-                    <Fragment>
-                        <Header />
-                    <div style={{display: 'flex', alignItems:'center', justifyContent:'center'}}>
-                        
-                       <p style={{fontSize: '96px'}}> 404 </p>
-                    </div>
-                    </Fragment>
+                    <Route path="*" render={() =>
+                        <Fragment>
+                            <Header />
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+
+                                <p style={{ fontSize: '96px' }}> 404 </p>
+                            </div>
+                        </Fragment>
                     } />
 
                 </Switch>
